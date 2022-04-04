@@ -1,0 +1,15 @@
+慕课网---探秘Spring AOP---视频后代码
+网址：https://www.imooc.com/learn/869
+  AOP是一种编程范式，不是编程语言
+  解决特定问题，不是解决所有问题
+  AOP应用场景
+    权限控制
+    缓存控制
+    事务控制
+    审计日志
+    性能监控
+    分布式追踪
+    异常处理
+
+支持AOP的编程语言
+    Java， Python，C/C++ ,Ruby, PHP .net

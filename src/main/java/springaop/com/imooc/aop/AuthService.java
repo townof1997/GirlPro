@@ -1,5 +1,6 @@
-package springaop.com.imooc.aop.service;
+package springaop.com.imooc.aop;
 
+import org.springframework.stereotype.Component;
 import springaop.com.imooc.aop.security.CurrentUserHolder;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Service;
  * @author: 86138_town
  * @create date: 2022/3/30 22 38
  */
-@Service
+@Component
 public class AuthService {
     public void checkService() {
         String user = CurrentUserHolder.get();
