@@ -1,0 +1,30 @@
+package springaop.com.imooc.aop.service;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+/**
+ * @program: springaop.com.imooc.aop.service
+ * @description:
+ * @author: 86138_town
+ * @create date: 2022/3/30 22 45
+ */
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class ProductServiceTest {
+
+    @Autowired
+    ProductService productService;
+
+    @Test
+    public void annoInsertTest() {
+
+    }
+}
+
+
+   
